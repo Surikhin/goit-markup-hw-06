@@ -112,14 +112,358 @@ ol {
     color: var(--NAVY-BLUE);
 }
 
-
-
-
-
-
-
-
 /* ================= /HEADER MOBILE STYLES ========== */
+/* ================= HERO MOBILE STYLES ========== */
+
+.mobile-hiro-section {
+    background-color: var(--NAVY-BLUE);
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+}
+
+.hiro-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--WHITE);
+    max-width: 288px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.hiro-button {
+    background-color: var(--IRIS);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--WHITE);
+    cursor: pointer;
+    display: block;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    margin: 0 auto;
+    margin-top: 72px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);     
+}
+
+.hiro-button:hover,
+.hiro-button:focus {
+    background-color: var(--OCEAN);
+}
+/* ================= /HERO MOBILE STYLES ========== */
+/* ================= HEADER MOBILE STYLES ========== */
+
+.section-h {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.section-h-title {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.icon-h {
+    display: none;
+}
+
+.section-h-ul {
+display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+}
+
+.section-h-li {
+    width: 100%;
+}
+/* ================= /HEADER MOBILE STYLES ========== */
+/* ================= SECTION TEAM MOBILE STYLES ========== */
+
+.section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--CLOUD);
+}
+
+.section-team-title {
+    color: var(--NAVY-BLUE);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        margin-bottom: 72px;
+}
+
+.section-team-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+
+.team-li {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-player {
+    padding: 32px 0;
+}
+
+.icons-team-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.icons-team-li {
+    width: 40px;
+    height: 40px;
+}
+
+.icons-team-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-icon {
+    fill: var(--CLOUD);
+}
+
+.icons-team-link:hover,
+.icons-team-link:focus {
+    background-color: var(--OCEAN);
+}
+/* ================= /SECTION TEAM MOBILE STYLES ========== */
+/* ================= OUR PORTFOLIO MOBILE STYLES ========== */
+
+.section-our-portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.section-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+    margin-bottom: 72px;
+}
+
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: 288px;
+}
+
+.portfolio-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.overlay-text {
+    display: none;
+}
+/* ================= /OUR PORTFOLIO MOBILE STYLES ========== */
+/* ================= FOOTER MOBILE STYLES ========== */
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-studio-footer {
+    color: var(--CLOUD);
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--CLOUD);
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.footer-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--WHITE);
+    margin-bottom: 16px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-li {
+    width: 40px;
+    height: 40px;
+}
+
+.icons-footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-footer-icon {
+    fill: var(--CLOUD);
+}
+
+.futer-email-input {
+    width: 100%;
+}
+
+.futer-text-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--WHITE);
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-label {
+    width: 100%;
+}
+
+.footer-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--WHITE);
+    background-color: transparent;
+    outline: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    opacity: 0.3;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: var(--WHITE);     
+}
+
+.footer-button-subscribe {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--WHITE);
+    cursor: pointer;
+    background-color: var(--IRIS);
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-frame-icon {
+    margin-left: 16px;
+}
+
+/* ================= /FOOTER MOBILE STYLES ========== */
 
 @media screen and (max-width: 767px) {
 
@@ -274,6 +618,26 @@ ol {
 
 
     /* ================= /HEADER TABLET STYLES ========== */
+
+    /* ================= HERO TABLET STYLES ========== */
+    
+    /* ================= /HERO TABLET STYLES ========== */
+    
+    /* ================= HEADER TABLET STYLES ========== */
+    
+    /* ================= /HEADER TABLET STYLES ========== */
+    
+    /* ================= SECTION TEAM TABLET STYLES ========== */
+    
+    /* ================= /SECTION TEAM TABLET STYLES ========== */
+    
+    /* ================= OUR PORTFOLIO TABLET STYLES ========== */
+    
+    /* ================= /OUR PORTFOLIO TABLET STYLES ========== */
+    
+    /* ================= FOOTER TABLET STYLES ========== */
+    
+    /* ================= /FOOTER TABLET STYLES ========== */
 }
 
 @media screen and (min-width: 1158px) {
@@ -282,5 +646,29 @@ ol {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    /* ================= /HEADER TABLET STYLES ========== */
+
+    /* ================= /HEADER TABLET STYLES ========== */
+    
+    /* ================= HERO TABLET STYLES ========== */
+    
+          /* ================= /HERO TABLET STYLES ========== */
+    
+          /* ================= HEADER TABLET STYLES ========== */
+    
+          /* ================= /HEADER TABLET STYLES ========== */
+    
+          /* ================= SECTION TEAM TABLET STYLES ========== */
+    
+          /* ================= /SECTION TEAM TABLET STYLES ========== */
+    
+          /* ================= OUR PORTFOLIO TABLET STYLES ========== */
+    
+          /* ================= /OUR PORTFOLIO TABLET STYLES ========== */
+    
+          /* ================= FOOTER TABLET STYLES ========== */
+    
+          /* ================= /FOOTER TABLET STYLES ========== */
 }
 /*  */
