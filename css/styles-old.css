@@ -71,12 +71,12 @@ ol {
 }
 
 
-.heder-nav {
+/* .heder-nav {
     display: flex;
     align-items: center;
-}
+} */
 
-.logo-heder {
+/* .logo-heder {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -87,11 +87,11 @@ color: var(--IRIS);
 text-decoration: none;
 margin-right: 76px;
 display: inline-block;
-}
+} */
 
-.logo-studio {
+/* .logo-studio {
     color : var(--NAVY-BLUE);
-}
+} */
 .nav-list {
     display: flex;
     gap: 40px;
