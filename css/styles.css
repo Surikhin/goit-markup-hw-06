@@ -21,6 +21,10 @@
 
 }
 
+  .mob-current {
+      color: var(--OCEAN);
+  }
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--SLATE);
@@ -83,8 +87,6 @@ ol {
 }
 
 .heder-top-line {
-    padding-top: 16px;
-    padding-bottom: 16px;
     border-bottom: 1px solid var(--CORNFLOWER);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -698,10 +700,6 @@ display: inline-flex;
         .nav-link:focus {
             color: var(--OCEAN);
         }
-
-        .mob-current {
-            color: var(--OCEAN);
-        }
     
         .mobile-menu.is-open {
             transform: translateX(0%);
@@ -799,15 +797,6 @@ display: inline-flex;
     .container {
         width: 768px;
     }
-
-    .nav-list {
-        display: flex;
-        gap: 40px;
-    }
-        
-    .adres-item {
-        display: flex;
-    }
         
     .mobile-menu {
         display: none;
@@ -827,10 +816,69 @@ display: inline-flex;
         margin-right: 120px;
     }
 
-    /* ================= /HEADER TABLET STYLES ========== */
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
 
+    .nav-link {
+        color: var(--NAVY-BLUE);
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        padding: 24px 0;
+        display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .current {
+        position: relative;
+        color: var(--OCEAN);
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 48px;
+        height: 4px;
+        background-color: var(--OCEAN);
+        border-radius: 2px;
+    }
+
+    .adres-item {
+        display: flex;
+        font-style: normal;
+        margin-left: auto;
+    }
+
+    .addres-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .adres-emtel {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: var(--SLATE);
+        text-decoration: none;    
+    }
+    /* ================= /HEADER TABLET STYLES ========== */
     /* ================= HERO TABLET STYLES ========== */
     
+    .hiro-title {
+        max-width: 496px;
+        margin-bottom: 36px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+
     /* ================= /HERO TABLET STYLES ========== */
     
     /* ================= HEADER TABLET STYLES ========== */
