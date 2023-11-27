@@ -786,8 +786,6 @@ display: inline-flex;
 @media screen and (min-width: 320px) {
     .container {
         width: 320px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
@@ -878,19 +876,67 @@ display: inline-flex;
         line-height: 1.07;
     }
 
-
+    .hiro-button {
+        margin-top: 32px;
+    }
     /* ================= /HERO TABLET STYLES ========== */
+    /* ================= SECTION 1 TABLET STYLES ========== */
     
-    /* ================= HEADER TABLET STYLES ========== */
-    
-    /* ================= /HEADER TABLET STYLES ========== */
-    
+    .section-h-title {
+        text-align: start;
+    }
+
+    .section-h-ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .section-h-li {
+        flex-basis: calc((100% - 24px) / 2);
+        width: 100%;
+    }
+    /* ================= /SECTION 1 TABLET STYLES ========== */
     /* ================= SECTION TEAM TABLET STYLES ========== */
-    
+
+    .container-our-tem {
+        max-width: 584px;
+    }
+
+    .section-team-ul {
+        column-gap: 24px;
+        row-gap: 64px;
+        flex-direction: row;
+    }
+
+    .team-li {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
     /* ================= /SECTION TEAM TABLET STYLES ========== */
-    
     /* ================= OUR PORTFOLIO TABLET STYLES ========== */
+
+    .portfolio-container {
+        max-width: 768px;
+    }
     
+    .section-portfolio {
+        font-weight: 700;
+    }
+
+    .portfolio-ul {
+        flex-direction: row;
+        row-gap: 72px;
+        width: 100%;
+    }
+
+    .portfolio-li {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+
+
     /* ================= /OUR PORTFOLIO TABLET STYLES ========== */
     
     /* ================= FOOTER TABLET STYLES ========== */
