@@ -935,11 +935,34 @@ display: inline-flex;
         flex-basis: calc((100% - 24px) / 2);
     }
 
-
-
     /* ================= /OUR PORTFOLIO TABLET STYLES ========== */
-    
     /* ================= FOOTER TABLET STYLES ========== */
+
+    .div-footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        text-align: start;
+        row-gap: 72px;
+        column-gap: 0;
+        max-width: 584px;
+    }
+
+    .footer-logo-text {
+         margin-right: 24px
+    }
+
+        .footer-form {
+          flex-direction: row;
+          max-width: 453px;
+        }
+
+        .footer-input {
+            width: 264px;
+        }
+
+
+
     
     /* ================= /FOOTER TABLET STYLES ========== */
 }
