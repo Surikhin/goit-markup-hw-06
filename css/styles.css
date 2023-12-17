@@ -960,12 +960,16 @@ display: inline-flex;
         .footer-input {
             width: 264px;
         }
-
-
-
-    
     /* ================= /FOOTER TABLET STYLES ========== */
+
+/* =====MODAL===== */
+.modal {
+    width: 408px;
 }
+/* =====/MODAL===== */
+}
+
+/* ===== DESKTOP=====  */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -974,28 +978,62 @@ display: inline-flex;
         padding-right: 15px;
     }
 
-    /* ================= /HEADER TABLET STYLES ========== */
+    /* ================= HEADER DESKTOP STYLES ========== */
 
-    /* ================= /HEADER TABLET STYLES ========== */
+    .logo-heder {
+        margin-right: 76px;
+    }
+
+    .addres-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .adres-emtel {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+        .adres-emtel:hover,
+        .adres-emtel:focus {
+            color: var(--OCEAN);
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: var(--OCEAN);
+        }
+      
+    /* ================= /HEADER DESKTOP STYLES ========== */
+    /* ================= HERO DESKTOP STYLES ========== */
+
+    .mobile-hiro-section {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .hiro-title {
+        margin-bottom: 48px;
+    }
     
-    /* ================= HERO TABLET STYLES ========== */
+    /* ================= /HERO DESKTOP STYLES ========== */
     
-          /* ================= /HERO TABLET STYLES ========== */
+    /* ================= SECTION 1 DESKTOP STYLES ========== */
     
-          /* ================= HEADER TABLET STYLES ========== */
+    /* ================= /SECTION 1 DESKTOP STYLES ========== */
     
-          /* ================= /HEADER TABLET STYLES ========== */
+    /* ================= SECTION TEAM DESKTOP STYLES ========== */
     
-          /* ================= SECTION TEAM TABLET STYLES ========== */
+    /* ================= /SECTION TEAM DESKTOP STYLES ========== */
     
-          /* ================= /SECTION TEAM TABLET STYLES ========== */
+    /* ================= OUR PORTFOLIO DESKTOP STYLES ========== */
     
-          /* ================= OUR PORTFOLIO TABLET STYLES ========== */
+    /* ================= /OUR PORTFOLIO DESKTOP STYLES ========== */
     
-          /* ================= /OUR PORTFOLIO TABLET STYLES ========== */
+    /* ================= FOOTER DESKTOP STYLES ========== */
     
-          /* ================= FOOTER TABLET STYLES ========== */
-    
-          /* ================= /FOOTER TABLET STYLES ========== */
+    /* ================= /FOOTER DESKTOP STYLES ========== */
 }
 /*  */
