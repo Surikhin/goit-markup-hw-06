@@ -129,7 +129,17 @@ ol {
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/BG-mobile.jpg);
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .mobile-hiro-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/BG-mobile@2x.jpg);
+    }
 }
 
 .hiro-title {
@@ -795,6 +805,22 @@ display: inline-flex;
     .container {
         width: 768px;
     }
+
+    .mobile-hiro-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/BG-tablet.jpg);
+    }
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .mobile-hiro-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../images/BG-tablet@2x.jpg);
+        }
+    }
         
     .mobile-menu {
         display: none;
@@ -976,6 +1002,22 @@ display: inline-flex;
         width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .mobile-hiro-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../images/BG-desktop.jpg);
+    }
+        
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+       screen and (min-resolution: 2dppx) and (min-width: 1158px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+        .mobile-hiro-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/BG-desktop@2x.jpg);
+        }
     }
 
     /* ================= HEADER DESKTOP STYLES ========== */
